@@ -6,3 +6,4 @@ console.log(dobro(Math.PI))
 ola = () => "Olá"
 ola = _ => "Olá" // possui um parâmetro
 console.log(ola())
+
