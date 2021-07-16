@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "body-parser": "^1.19.0"
+  },
+  "dependencies": {
+    "node-schedule": "^2.0.0"
+  }
+}
