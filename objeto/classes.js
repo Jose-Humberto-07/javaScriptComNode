@@ -1,3 +1,5 @@
+const aaa = require("./heranca2");
+
 class Lancamento {
     constructor(nome = "genérico", valor = 0) {
         this.nome = nome
@@ -33,4 +35,6 @@ const contaDeLuz = new Lancamento("luz", -220)
 const contas = new CicloFinanceiro(6, 2018)
 contas.addLancamentos(salario, contaDeLuz)
 console.log(contas.sumario());
+
+module.exports = {CicloFinanceiro}
 
